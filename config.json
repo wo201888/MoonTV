@@ -1,10 +1,20 @@
 {
   "cache_time": 7200,
   "api_site": {
+     "ffzy": {
+      "api": "http://api.ffzyapi.com/api.php/provide/vod",
+      "name": "非凡资源",
+      "detail": "http://ffzy5.tv"
+    },
     "dyttzy": {
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-      "name": "电影天堂资源",
+      "name": "天堂资源",
       "detail": "http://caiji.dyttzyapi.com"
+    },
+     "ffzy": {
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "name": "量子资源",
+      "detail": "https://lzizy.net"
     },
     "ruyi": {
       "api": "https://cj.rycjapi.com/api.php/provide/vod",
@@ -12,21 +22,20 @@
     },
     "heimuer": {
       "api": "https://json.heimuer.xyz/api.php/provide/vod",
-      "name": "黑木耳",
+      "name": "木耳资源",
       "detail": "https://heimuer.tv"
     },
     "bfzy": {
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "name": "暴风资源"
     },
+     "apibdzy": {
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
+      "name": "百度资源"
+    },
     "tyyszy": {
       "api": "https://tyyszy.com/api.php/provide/vod",
       "name": "天涯资源"
-    },
-    "ffzy": {
-      "api": "http://ffzy5.tv/api.php/provide/vod",
-      "name": "非凡影视",
-      "detail": "http://ffzy5.tv"
     },
     "zy360": {
       "api": "https://360zy.com/api.php/provide/vod",
@@ -42,7 +51,11 @@
     },
     "hwba": {
       "api": "https://cjhwba.com/api.php/provide/vod",
-      "name": "华为吧资源"
+      "name": "华为资源"
+    },
+     "sdzyapi": {
+      "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
+      "name": "闪电资源"
     },
     "jisu": {
       "api": "https://jszyapi.com/api.php/provide/vod",
