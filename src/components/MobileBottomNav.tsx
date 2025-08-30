@@ -33,12 +33,12 @@ const MobileBottomNav = ({ activePath }: MobileBottomNavProps) => {
     { icon: Search, label: '搜索', href: '/search' },
     {
       icon: Film,
-      label: '热门电影',
+      label: '电影',
       href: '/douban?type=movie&tag=热门&title=热门电影',
     },
     {
       icon: Tv,
-      label: '热门剧集',
+      label: '剧集',
       href: '/douban?type=tv&tag=热门&title=热门剧集',
     },
     {
@@ -58,7 +58,6 @@ const MobileBottomNav = ({ activePath }: MobileBottomNavProps) => {
       href: '/douban?type=tv&tag=韩剧',
     },
     { icon: MountainSnow, label: '日剧', href: '/douban?type=tv&tag=日剧' },
-    { icon: VenetianMask, label: '日漫', href: '/douban?type=tv&tag=日本动画' },
   ];
 
   const isActive = (href: string) => {
