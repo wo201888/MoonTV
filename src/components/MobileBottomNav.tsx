@@ -43,7 +43,7 @@ const MobileBottomNav = ({ activePath }: MobileBottomNavProps) => {
     },
     {
       icon: Star,
-      label: '豆瓣 Top250',
+      label: '豆瓣Top',
       href: '/douban?type=movie&tag=top250&title=豆瓣 Top250',
     },
     {
