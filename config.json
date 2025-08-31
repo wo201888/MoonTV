@@ -16,10 +16,6 @@
       "name": "量子资源",
       "detail": "https://lzizy.net"
     },
-    "ruyi": {
-      "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "name": "如意资源"
-    },
     "bfzy": {
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "name": "暴风资源"
