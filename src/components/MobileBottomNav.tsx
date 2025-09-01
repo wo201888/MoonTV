@@ -32,31 +32,32 @@ const MobileBottomNav = ({ activePath }: MobileBottomNavProps) => {
     { icon: Home, label: '首页', href: '/' },
     { icon: Search, label: '搜索', href: '/search' },
     {
-      icon: Film,
-      label: '电影',
-      href: '/douban?type=movie&tag=热门&title=热门电影',
-    },
-    {
       icon: Tv,
       label: '剧集',
       href: '/douban?type=tv&tag=热门&title=热门剧集',
     },
-    {
-      icon: Star,
-      label: '豆瓣Top',
-      href: '/douban?type=movie&tag=top250&title=豆瓣 Top250',
+     {
+      icon: Film,
+      label: '电影',
+      href: '/douban?type=movie&tag=热门&title=热门电影',
     },
     {
       icon: Clover,
       label: '综艺',
       href: '/douban?type=tv&tag=综艺&title=综艺',
     },
-    { icon: Swords, label: '美剧', href: '/douban?type=tv&tag=美剧' },
-    {
+     {
       icon: MessageCircleHeart,
       label: '韩剧',
       href: '/douban?type=tv&tag=韩剧',
     },
+     {
+      icon: Star,
+      label: '豆瓣Top',
+      href: '/douban?type=movie&tag=top250&title=豆瓣 Top250',
+    },
+    { icon: Swords, label: '美剧', href: '/douban?type=tv&tag=美剧' },
+   
     { icon: MountainSnow, label: '日剧', href: '/douban?type=tv&tag=日剧' },
   ];
 
